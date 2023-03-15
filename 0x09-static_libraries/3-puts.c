@@ -1,16 +1,13 @@
 #include "main.h"
 
 /**
- * _abs - computes the absolute value of an integer
- * @n: the int to check
- * Return: the absolute value of int
+ * _puts - prints a string to stdout.
+ * @str: The string to be printed.
  */
-int _abs(int n)
+
+void _puts(char *str)
 {
-	if (n >= 0)
-	{
-		return (n);
-	}
-	return (-n);
-}
+	while (*str)
+		_putchar(*str++);
+	_putchar('\n');
 }
