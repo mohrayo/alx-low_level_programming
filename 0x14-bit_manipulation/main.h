@@ -1,5 +1,5 @@
-#ifndef BITS_MANIP
-#define BITS_MANIP
+#ifndef BITS_MANI
+#define BITS_MANI
 
 #include <stdlib.h>
 
